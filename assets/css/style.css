@@ -19,7 +19,7 @@ body{
 }
 
 .section-title {
-    font-size: 48px;
+    font-size: 32px;
     color: var(--thirdColor);
     border-right: 3px solid var(--secondColor);
 }
@@ -27,7 +27,7 @@ body{
 .general-flex {
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 img {
@@ -36,7 +36,27 @@ img {
 /*END General CSS Stylings*/
 
 /*START Site Navigation*/
+header div h1 {
+    font-size: 48px;
+    padding: 12px 35px;
+}
+header {
+    background-color: rgb(43, 42, 42);
+}
+header ul {
+    align-items: center;
+    list-style: none;
+    text-align: right;
+    padding: 20px 35px;
+}
 
+header a{
+    text-decoration: none;
+    font-size: 40px;
+    color: var(--firstColor);
+    padding: 0 25px;
+    line-height: 1.3;
+}
 /*END Site Navigation*/
 
 /*START Sub-Title*/
