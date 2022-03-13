@@ -9,12 +9,12 @@
 <body>
 
 <!--START NAVIGATION BAR-->
-<header> 
+<header class="general-flex"> 
     <div> <!--title-->
         <h1>Thomas Ciszek's Portfolio</h1>
     </div> <!--end title-->
     <nav> <!--page links-->
-        <ul>
+        <ul class="general-flex">
             <li><a href="#about-me">About Me</a></li> <!--about-->
             <li><a href="#projects">Projects</a></li> <!--projects-->
             <li><a href="#contact-info">Contact Info</a></li> <!--contact-->
@@ -32,10 +32,14 @@
 
 
 <!--START ABOUT SECTION-->
-<section>
+<section class="general-flex">
     <div> <!--image and section title-->
-        <img src="./assets/images/mugshot.jpg" alt="A picture of the man, the myth, the legend: Thomas Ciszek">
-        <h3>About Me</h3>
+        <div> <!--image-->
+            <img src="./assets/images/mugshot.jpg" alt="A picture of the man, the myth, the legend: Thomas Ciszek">
+        </div><!--end image-->
+        <div class="section-title"> <!--section title-->
+            <h3>About Me</h3>
+        </div> <!--end section title-->
     </div> <!--end image and section title-->
     <div> <!--about text-->
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi provident illo cumque vitae dolores. 
@@ -46,11 +50,11 @@
 
 
 <!--START PROJECTS-->
-<section>
-    <div> <!--section title-->
+<section class="general-flex">
+    <div class="section-title"> <!--section title-->
         <h3>Projects</h3>
     </div> <!--end section title-->
-    <div> <!--projects-->
+    <div class="general-flex"> <!--projects-->
         <div><!--run-buddy-->
             <div>
                 <h4>Run Buddy</h4>
@@ -78,11 +82,11 @@
 
 
 <!--START CONTACT INFO-->
-<section>
-    <div> <!--section title-->
+<section class="general-flex">
+    <div class="section-title"> <!--section title-->
         <h3>Contact Info</h3>
     </div> <!--end section title-->
-    <div> <!--contact links-->
+    <div class="general-flex"> <!--contact links-->
         <div> <!--phone number-->
             <p>P: 1(540)415-2024</p>
         </div> <!--end phone number-->

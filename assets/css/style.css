@@ -1,5 +1,60 @@
+/*START General CSS Stylings*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--firstColor);
+    background-color: var(--fourthColor);
+}
+
+:root {
+    --firstColor: #48f4b3;
+    --secondColor: #564787;
+    --thirdColor: #dcd6f7;
+    --fourthColor: #717568;
+}
+
+.section-title {
+    font-size: 48px;
+    color: var(--thirdColor);
+    border-right: 3px solid var(--secondColor);
+}
+
+.general-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+img {
+    max-width: 400px;
+}
+/*END General CSS Stylings*/
+
+/*START Site Navigation*/
+
+/*END Site Navigation*/
+
+/*START Sub-Title*/
+
+/*END Sub-Title*/
+
+/*START About*/
+
+/*END About*/
+
+/*START Projects*/
+
+/*END Projects*/
+
+/*START Contact Info*/
+
+/*END Contact Info*/
+
+/*START Media Queries*/
+
+/*END Media Queries*/
