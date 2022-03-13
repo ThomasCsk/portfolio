@@ -29,10 +29,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-img {
-    max-width: 400px;
-}
 /*END General CSS Stylings*/
 
 /*START Site Navigation*/
@@ -100,7 +96,7 @@ header a:hover {
 .about-title img {
     max-width: 400px;
     margin-bottom: -4px;
-    border: 10px solid #4c0999;
+    border: 6px solid #4c0999;
 }
 
 .text{
@@ -110,6 +106,39 @@ header a:hover {
 /*END About*/
 
 /*START Projects*/
+.project-links {
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px auto;
+}
+.projects-title {
+    padding: 0px 20px;
+}
+.run-buddy, .horiseon, .robot-gladiators {
+    flex-direction: column;
+    border: 3px solid var(--secondColor);
+    text-align: center;
+    margin: 10px 5px;
+}
+.project-header{
+    border-bottom: 3px solid var(--secondColor);
+}
+.project-links img {
+    max-width: 387px;
+    align-content: center;
+    margin-bottom: -4px;
+    opacity: .3;
+}
+
+.project-links img:hover {
+    opacity: 1;
+}
+
+.run-buddy img{
+    max-width: 800px;
+    min-width: 300px;
+}
+
 
 /*END Projects*/
 
